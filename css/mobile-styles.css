@@ -1,0 +1,282 @@
+@charset "utf-8";
+/* CSS Document */
+
+.images  {
+	
+	max-width: 100%;
+	height: auto;
+	alignment-baseline: central;
+	
+}
+
+@media only and (max-width: 320px) {
+	
+	.container {
+		position: relative;
+		background-color: #fff;
+		max-height: 100%;
+		max-width: 100%;
+		padding-top: 0px;
+		padding-right: 0%;
+		padding-bottom: 0px;
+		padding-left: 0%;
+		border: 2px solid #5273E2;
+		margin-top: auto;
+		margin-right: auto;
+		margin-bottom: auto;
+		margin-left: auto;
+		minimum-width: 0;
+	}
+	
+	header  {
+		height: 25px;
+		max-width: 100%;
+		background-color: #5273E2;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	
+	main {
+		
+		height: 450px;
+		max-width: 100%;
+		background-color: #fff;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	
+	footer {
+		height: 80px;
+		max-width: 100%;
+		background-color: #5273E2;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+
+@media only and (max-width: 480px)  {
+	
+	.container {
+		position: relative;
+		background-color: #fff;
+		max-height: 100%;
+		max-width: 100%;
+		padding-top: 0px;
+		padding-right: 0%;
+		padding-bottom: 0px;
+		padding-left: 0%;
+		border: 2px solid #5273E2;
+		margin-top: auto;
+		margin-right: auto;
+		margin-bottom: auto;
+		margin-left: auto;
+		minimum-width: 0;
+	}
+	
+	header  {
+		height: 0px;
+		max-width: 100%;
+		background-color: #5273E2;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	
+	main {
+		
+		height: 187px;
+		max-width: 100%;
+		background-color: #fff;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	
+	footer {
+		height: 25px;
+		max-width: 100%;
+		background-color: #5273E2;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	
+}
+
+@media only and (max-width: 800px)  {
+	
+	.container {
+		position: relative;
+		background-color: #fff;
+		height: 95%;
+		max-width: 90%;
+		padding-top: 0px;
+		padding-right: 0%;
+		padding-bottom: 0px;
+		padding-left: 0%;
+		border: 2px solid #5273E2;
+		margin-top: auto;
+		margin-right: auto;
+		margin-bottom: auto;
+		margin-left: auto;
+		minimum-width: 0;
+	}
+	
+	header  {
+		height: 35px;
+		max-width: 90%;
+		background-color: #5273E2;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	
+	main {
+		
+		height: 851px;
+		max-width: 90%;
+		background-color: #fff;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	
+	footer {
+		height: 60px;
+		max-width: 90%;
+		background-color: #5273E2;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+
+@media only and (max-width: 1024px) {
+	
+		.container {
+		position: relative;
+		background-color: #fff;
+		height: 100%;
+		max-width: 80%;
+		padding-top: 0px;
+		padding-right: 0%;
+		padding-bottom: 0px;
+		padding-left: 0%;
+		border: 2px solid #5273E2;
+		margin-top: auto;
+		margin-right: auto;
+		margin-bottom: auto;
+		margin-left: auto;
+		minimum-width: 0;
+	}
+	
+	header  {
+		height: 60px;
+		max-width: 80%;
+		background-color: #5273E2;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	
+	main {
+		
+		height: 541px;
+		max-width: 80%;
+		background-color: #fff;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	
+	footer {
+		height: 60px;
+		max-width: 80%;
+		background-color: #5273E2;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+
+@media only and (max-width: 1280px)  {
+	
+		.container {
+		position: relative;
+		background-color: #fff;
+		height: 95%;
+		max-width: 80%;
+		padding-top: 0px;
+		padding-right: 0%;
+		padding-bottom: 0px;
+		padding-left: 0%;
+		border: 2px solid #5273E2;
+		margin-top: auto;
+		margin-right: auto;
+		margin-bottom: auto;
+		margin-left: auto;
+		minimum-width: 0;
+	}
+	
+	header  {
+		height: 60px;
+		max-width: 80%;
+		background-color: #5273E2;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	
+	main {
+		
+		height: 666px;
+		max-width: 80%;
+		background-color: #fff;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	
+	footer {
+		height: 60px;
+		max-width: 80%;
+		background-color: #5273E2;
+		margin-right: auto;
+		margin-left: auto;
+	}	
+	
+}
+
+@media only and (max-width: 1920px)  {
+	
+		.container {
+		position: relative;
+		background-color: #fff;
+		height: 95%;
+		max-width: 80%;
+		padding-top: 0px;
+		padding-right: 0%;
+		padding-bottom: 0px;
+		padding-left: 0%;
+		border: 2px solid #5273E2;
+		margin-top: auto;
+		margin-right: auto;
+		margin-bottom: auto;
+		margin-left: auto;
+		minimum-width: 0;
+	}
+	
+	header  {
+		height: 60px;
+		max-width: 80%;
+		background-color: #5273E2;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	
+	main {
+		
+		height: 960px;
+		max-width: 80%;
+		background-color: #fff;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	
+	footer {
+		height: 60px;
+		max-width: 80%;
+		background-color: #5273E2;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}

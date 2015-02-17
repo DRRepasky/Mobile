@@ -1,0 +1,357 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+<title>Bobo Bear's Big Day</title>
+<link href="css/styles4.css" rel="stylesheet" type="text/css"/>
+<link href="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.css" rel="stylesheet" type="text/css"/>
+<script src="http://code.jquery.com/jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.js" type="text/javascript"></script>
+<script type="text/javascript" language="javascript" src="js/functionBank.js" type="text/javascript"></script>
+<script src="phonegap.js"></script>
+</head> 
+<body> 
+
+<div class="page" id="page0" data-role="page" target="_parent">
+	<div id="header">
+    <center>
+    <img src="img/bobobearlogo1.png" class="images">	
+    </center>
+    </div>
+	<div id="content">	
+	<center>
+      <img src="img/title2.png" class="images">
+    </center>
+    <center>
+      <img src="img/storyandillustrations.png" class="images">
+    </center>
+  </div>
+	<div id="footer">  
+    <a href="#" onclick="zeroToOne();" data-role="button" data-icon="arrow-r" data-iconpos="right">Next Page</a> 
+    </div>
+    <div id="sub-footer">
+    </div>
+</div>
+
+<div class="page" data-role="page" id="page1">
+	<div id="header">
+    <center>
+    <img src="img/bobobearlogo1.png" class="images">
+    </center> 
+    </div>
+	<div id="content">	
+	<center>
+    <img src="img/frame1.png" class="images">
+    </center>
+    <center>
+    <img src="img/slide1.0.png" class="images"> 
+    </center>
+    </div>
+    <div id="footer">
+    <a href="#" onclick="oneToTwo();" data-role="button" data-icon="arrow-r" data-iconpos="right">Next Page</a>
+    </div>
+    <div id="sub-footer">
+    </div>
+	</div>
+</div>
+
+<div class="page" data-role="page" id="page2">
+	<div id="header">
+    <center>
+    <img src="img/bobobearlogo1.png" class="images">
+    </center> 
+    </div>
+	<div id="content">
+    <center>
+    <img src="img/frame2.png" class="images">
+    </center>
+    <center>
+    <img src="img/slide2.0.png" class="images">
+    </center> 
+    </div>
+    <div id="footer">
+    <a href="#" onclick="sceneOne();" data-role="button" data-icon="arrow-r" data-iconpos="right">Next Page</a>
+	</div>
+    <div id="sub-footer">
+    </div>
+</div>
+
+<div class="page" data-role="page" id="page3" id="c">
+	<div id="header">
+    <center>
+    <img src="img/bobobearlogo1.png" class="images">
+    </center> 
+    </div>
+	<div id="content">
+    <center>	
+    <img src="img/frame3.png" class="images">
+    </center>
+    <center>
+    <img src="img/slide3.0.png" class="images">
+    </center> 
+    </div>
+    <div id="footer">
+	<a href="#" onclick="sceneTwo();" data-role="button" data-icon="arrow-r" data-iconpos="right">Next Page</a>
+	</div>
+    <div id="sub-footer">
+    </div>
+</div>
+<div class="page" data-role="page" id="page4" id="c">
+	<div id="header">
+		<center>
+    <img src="img/bobobearlogo1.png" class="images">
+    </center> 
+    </div>
+	<div id="content">	
+	<center>
+    <img src="img/frame4.png" class="images">
+    </center>
+    <center>
+    <img src="img/slide4.0.png" class="images">
+    </center> 
+    </div>
+	<div id="footer">
+    <a href="#" onclick="sceneTwo();"data-role="button" data-icon="arrow-r" data-iconpos="right">Next Page</a>
+    </div>
+    <div id="sub-footer">
+    </div>
+</div>
+<div class="page" data-role="page" id="page5" id="c">
+	<div id="header">
+		<center>
+    <img src="img/bobobearlogo1.png" class="images">
+       </center>
+  </div>
+	<div id="content">	
+		<center>
+    <img src="img/frame5.png" class="images">
+        </center>
+        <center>
+    <img src="img/slide5.0.png" class="images">
+        </center>
+    </div>
+	<div id="footer">
+    <a href="#" onclick="sceneTwo();" data-role="button" data-icon="arrow-r" data-iconpos="right">Next Page</a>
+	</div>
+    <div id="sub-footer">
+    </div>
+</div>
+<div class="page" data-role="page" id="page6" id="c">
+	<div id="header">
+		<center>
+    <img src="img/bobobearlogo1.png" class="images"> </div>
+        </center>
+	<div id="content">	
+		<center>
+    <img src="img/frame6.png" class="images">
+        </center>
+        <center>
+    <img src="img/slide6.0.png" class="images">
+        </center> 
+    </div>
+	<div id="footer">
+    <a href="#" onclick="sceneTwo();" data-role="button" data-icon="arrow-r" data-iconpos="right">Next Page</a>
+	</div>
+    <div id="sub-footer">
+    </div>
+</div>
+<div class="page" data-role="page" id="page7">
+	<div id="header">
+		<center>
+    <img src="img/bobobearlogo1.png" class="images">
+        </center> 
+    </div>
+	<div id="content">	
+		<center>
+    <img src="img/frame7.png" class="images">
+        </center>
+        <center>
+    <img src="img/slide7.0.png" class="images">
+        </center> 
+    </div>
+	<div id="footer">
+    <a href="#" onClick="eleven();" data-role="button" data-icon="arrow-r" data-iconpos="right">Next Page</a>
+    </div>
+    <div id="sub-footer">
+    </div>
+</div>
+<div class="page" data-role="page" id="page8">
+	<div id="header">
+		<center>
+    <img src="img/bobobearlogo1.png" class="images">
+        </center> 
+    </div>
+	<div id="content">	
+		<center>
+    <img src="img/frame8.png" class="images">
+       </center> 
+       <center>
+    <img src="img/slide8.0.png" class="images">
+       </center> 
+    </div>
+	<div id="footer">
+    <a href="#" onClick="eleven();" data-role="button" data-icon="arrow-r" data-iconpos="right">Next Page</a>
+	</div>
+    <div id="sub-footer">
+    </div>
+</div>
+<div class="page" data-role="page" id="page9">
+	<div id="header">
+		<center>
+    <img src="img/bobobearlogo1.png" class="images">
+        </center> 
+    </div>
+	<div id="content">	
+		<center>
+    <img src="img/frame9.png" class="images">
+    </center>
+        <center>
+    <img src="img/slide9.0.png" class="images">
+      </center> 
+    </div>
+	<div id="footer">
+    <a href="#" onClick="eleven();" data-role="button" data-icon="arrow-r" data-iconpos="right">Next Page</a>
+	</div>
+    <div id="sub-footer">
+    </div>
+</div>
+<div class="page" data-role="page" id="page10">
+	<div id="header">
+		<center>
+    <img src="img/bobobearlogo1.png" class="images"> 
+        </center>
+    </div>
+	<div id="content">	
+	  <center>
+    <img src="img/frame10.png" class="images">
+        </center>
+        <center>
+    <img src="img/slide10.0.png" class="images">
+        </center> 
+    </div>
+	<div id="footer">
+    <a href="#" onClick="eleven();" data-role="button" data-icon="arrow-r" data-iconpos="right">Next Page</a>
+    </div>
+    <div id="sub-footer">
+    </div>
+</div>
+<div class="page" data-role="page" id="page11">
+	<div id="header">
+		<center>
+    <img src="img/bobobearlogo1.png" class="images">
+        </center> 
+    </div>
+	<div id="content">	
+		<center>
+    <img src="img/frame11.png" class="images">
+        </center>
+        <center>
+    <img src="img/slide11.0.png" class="images">
+        </center> 
+     </div>
+	<div id="footer">
+    <a href="#" onClick="three();" data-role="button" data-icon="arrow-r" data-iconpos="right">Next Page</a>
+    </div>
+    <div id="sub-footer">
+    </div>
+</div>
+<div class="page" data-role="page" id="page12" id="a">
+	<div id="header">
+		<center>
+    <img src="img/bobobearlogo1.png" class="images">
+        </center> 
+    </div>
+	<div id="content">	
+		<center>
+    <img src="img/frame12.png" class="images">
+        </center>
+        <center>
+    <img src="img/slide12.0.png" class="images"> 
+        </center>
+    </div>
+	<div id="footer">
+    <a href="#" onclick="sixteen();" data-role="button" data-icon="arrow-r" data-iconpos="right">Next Page</a>	
+	</div>
+    <div id="sub-footer">
+    </div>
+</div>
+<div class="page" data-role="page" id="page13" id="a">
+	<div id="header">
+    	<center>
+    <img src="img/bobobearlogo1.png" class="images">
+        </center> 
+  </div>
+	<div id="content">	
+		<center>
+    <img src="img/frame13.png" class="images">
+        </center>
+        <center>
+    <img src="img/slide13.0.png" class="images">
+        </center> 
+    </div>
+	<div id="footer"><a href="#" onclick="sixteen();" data-role="button" data-icon="arrow-r" data-iconpos="right">Next Page</a>
+	</div>
+    <div id="sub-footer">
+    </div>
+</div>
+<div class="page" data-role="page" id="page14" id="a">
+	<div id="header">
+		<center>
+    <img src="img/bobobearlogo1.png" class="images">
+        </center> 
+    </div>
+	<div id="content">	
+		<center>
+    <img src="img/frame14.png" class="images">
+        </center>
+        <center>
+    <img src="img/slide14.0.png" class="images">
+        </center> 
+    </div>
+	<div id="footer"><a href="#" onclick="sixteen();" data-role="button" data-icon="arrow-r" data-iconpos="right">Next Page</a>
+	</div>
+    <div id="sub-footer">
+    </div>
+</div>
+<div class="page" data-role="page" id="page15" id="a">
+	<div id="header">
+		<center>
+    <img src="img/bobobearlogo1.png" class="images">
+        </center> 
+  </div>
+	<div id="content">	
+		<center>
+    <img src="img/frame15.png" class="images">
+        </center>
+        <center>
+    <img src="img/slide15.0.png" class="images">
+        </center> 
+    </div>
+	<div id="footer"><a href="#" onclick="sixteen();" data-role="button" data-icon="arrow-r" data-iconpos="right">Next Page</a>
+	</div>
+    <div id="sub-footer">
+    </div>
+</div>
+<div class="page" data-role="page" id="page16">
+	<div id="header">
+		<center>
+    <img src="img/bobobearlogo1.png" class="images">
+        </center> 
+	</div>
+	<div id="content">	
+	  <center>
+    <img src="img/frame16.png" class="images">
+      </center>
+      <center>
+    <img src="img/slide16.0.png" class="images">
+      </center> 
+    </div>
+	<div id="footer">
+    <a href="#" onclick="startOver();" data-role="button" data-icon="arrow-r" data-iconpos="right">Start Over</a>
+	</div>
+    <div id="sub-footer">
+    </div>
+</div>
+</body>
+</html>

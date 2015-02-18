@@ -66,12 +66,24 @@
 	margin-left: auto;
 	padding-top: 0px;
 	padding-bottom: 0px;
+	opacity: 0.7;
+}
+
+#upper-footer {
+	background-color: #8074BE;
+	background-image: url(../img/repeat3.png);
+	background-repeat: repeat;
+	height: 75px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	opacity: 0.7;
 }
 
 body { 
-	background-color: #F9C6F9;
-	background-image: url(../img/repeat3.png);
-	background-repeat: repeat;
+	background-color: #FFF;
+	
 }
 
 .images {

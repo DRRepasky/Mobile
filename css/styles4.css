@@ -65,7 +65,7 @@
 	marging-right: auto;
 	margin-left: auto;
 	padding-top: 0px;
-	padding-bottom: 0px;
+	padding-bottom: 10px;
 	opacity: 0.7;
 }
 
@@ -73,12 +73,22 @@
 	background-color: #8074BE;
 	background-image: url(../img/repeat3.png);
 	background-repeat: repeat;
-	height: 75px;
+	height: 50px;
 	margin-right: auto;
 	margin-left: auto;
 	padding-top: 0px;
 	padding-bottom: 0px;
 	opacity: 0.7;
+}
+
+#purple-line {
+	background-color: #400040;
+	height: 40px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	
 }
 
 body { 

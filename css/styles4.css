@@ -49,7 +49,7 @@
 }
 
 #footer {
-	background-color: #8080FF;
+	background-color: #D67AE0;
 	height: 15%;
 	margin-right: auto;
 	margin-left: auto;
@@ -73,7 +73,7 @@
 	background-color: #8074BE;
 	background-image: url(../img/repeat3.png);
 	background-repeat: repeat;
-	height: 50px;
+	height: 60px;
 	margin-right: auto;
 	margin-left: auto;
 	padding-top: 0px;
@@ -82,8 +82,8 @@
 }
 
 #purple-line {
-	background-color: #7b0d6d;
-	height: 40px;
+	background-color: #8074BE;
+	height: 25px;
 	margin-right: auto;
 	margin-left: auto;
 	padding-top: 0px;
